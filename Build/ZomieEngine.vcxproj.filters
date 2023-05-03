@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\workspace\ZomieEngine\Source\ZomieEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\workspace\ZomieEngine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8266CA37-9329-30E7-915F-6AB9EE7408A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{cda8c4bb-d6d9-47b0-9a44-a0391dfffdd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External">
+      <UniqueIdentifier>{e2fecd0e-7054-4e7d-bbee-a8f176f90a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{e0b60fd9-27f4-4f4d-aa97-7b2a34b67c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime">
+      <UniqueIdentifier>{654eb7df-57cd-442c-91d8-94d4ba98dc31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\Engine">
+      <UniqueIdentifier>{9632579f-36a7-4c23-b93c-37a6b21cd21d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\Core">
+      <UniqueIdentifier>{3cc1ba1a-339f-45f0-a6c0-b781e25fc87f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\Core\Math">
+      <UniqueIdentifier>{aef8e556-b8d0-4ecd-b743-bc43131f7492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\Graphics">
+      <UniqueIdentifier>{b880483e-530a-4c77-9a20-5116b4f1a1b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

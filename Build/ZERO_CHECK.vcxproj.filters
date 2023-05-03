@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\workspace\ZomieEngine\Build\CMakeFiles\cc4ed8136de6fd4ce18aede9cfb86395\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{041E30E8-8AF1-330F-9870-05C60DCF212A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

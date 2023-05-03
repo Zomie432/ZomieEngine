@@ -1,0 +1,10 @@
+^D:\WORKSPACE\ZOMIEENGINE\BUILD\CMAKEFILES\CC4ED8136DE6FD4CE18AEDE9CFB86395\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workspace/ZomieEngine -BD:/workspace/ZomieEngine/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/workspace/ZomieEngine/Build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
