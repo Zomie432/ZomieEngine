@@ -6,10 +6,13 @@
 #include <string>
 #include <cassert>
 
+#include "ZomieEngine.h"
+
 #pragma comment( lib, "user32" )          // link against the win32 library
 #pragma comment( lib, "d3d11.lib" )       // direct3D library
 #pragma comment( lib, "dxgi.lib" )        // directx graphics interface
 #pragma comment( lib, "d3dcompiler.lib" ) // shader compiler
+
 
 HWND WindowHandle;
 std::string WindowClassName = "ZomieEngine";
@@ -326,5 +329,27 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR pCmdLin
     }
 }
 
+ZGameEngine::ZGameEngine()
+{
 
+}
 
+ZGameEngine::~ZGameEngine()
+{
+    Shutdown();
+}
+
+void ZGameEngine::Init()
+{
+
+}
+
+void ZGameEngine::Tick()
+{
+
+}
+
+void ZGameEngine::Shutdown()
+{
+
+}

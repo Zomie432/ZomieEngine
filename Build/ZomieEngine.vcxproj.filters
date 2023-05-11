@@ -42,4 +42,9 @@
       <Filter>Source Files\Runtime\Graphics</Filter>
     </FxCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ZomieEngine.h">
+      <Filter>Source Files\Runtime\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
